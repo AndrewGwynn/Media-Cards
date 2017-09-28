@@ -1,0 +1,67 @@
+*, *::after {
+  box-sizing: border-box;
+}
+body {
+  width: 85%;
+  margin: 0 auto;
+  background-color: goldenrod;
+}
+header {
+font-family: 'inconsolata',monospace;
+  text-align: center;
+  font-size: 30px;
+}
+img {
+  width: 100%;
+}
+h4 {
+  font-family: 'Pangolin', cursive;
+  margin-bottom: 0;
+  font-size: 26px;
+  text-align: center;
+}
+p {
+  margin-top: 0;
+  font-family: 'inconsolata',monospace;
+  text-align: center;
+}
+/*-- document styles --*/
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.cards-item {
+ padding: 10px;
+ opacity: 1;
+}
+@media screen and (min-width: 550px) {
+  .cards-item {width: 50%;}
+}
+@media screen and (min-width: 900px) {
+  .cards-item {width: 33%;}
+}
+.cards-item:hover {
+ opacity: .8;
+}
+.card {
+border: 0px solid #ccc;
+padding: 8px 8px;
+background-color: forestgreen;
+}
+.btn {
+  width: 50%;
+  margin: auto;
+}
+button {
+  background: blue;
+  color: white;
+}
+button:hover {
+  background: royalblue;
+  color: white;
+}
+footer {
+  font-family: 'inconsolata',monospace;
+  text-align: center;
+  font-size: 20px;
+}
